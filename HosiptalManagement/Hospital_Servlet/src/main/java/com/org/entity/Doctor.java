@@ -1,0 +1,129 @@
+package com.org.entity;
+
+public class Doctor {
+	private int  id ;
+ 	private String fullName ;
+ 	private String dob ;
+ 	private String qualification ;
+ 	private String specialist ;
+ 	private String email ;
+ 	private String mobNo ;
+ 	private String password ;
+ 	public Doctor(String fullName, String dob, String qualification, String specialist, String email, String mobNo,
+            	String password) {
+       	super();
+       	this.fullName = fullName;
+       	this.dob = dob;
+       	this.qualification = qualification;
+       	this.specialist = specialist;
+       	this.email = email;
+       	this.mobNo = mobNo;
+       	this.password = password;
+ 	}
+ 
+ 	public Doctor(int id, String fullName, String dob, String qualification, String specialist, String email,
+            	String mobNo, String password) {
+       	super();
+       	this.id = id;
+       	this.fullName = fullName;
+       	this.dob = dob;
+       	this.qualification = qualification;
+       	this.specialist = specialist;
+       	this.email = email;
+       	this.mobNo = mobNo;
+       	this.password = password;
+ 	}
+ 
+ 
+ 
+ 	public Doctor() {
+       	super();
+       	// TODO Auto-generated constructor stub
+ 	}
+ 	public int getId() {
+       	return id;
+ 	}
+ 	public void setId(int id) {
+       	this.id = id;
+ 	}
+ 	public String getFullName() {
+       	return fullName;
+ 	}
+ 	public void setFullName(String fullName) {
+       	this.fullName = fullName;
+ 	}
+ 	public String getDob() {
+       	return dob;
+ 	}
+ 	public void setDob(String dob) {
+       	this.dob = dob;
+ 	}
+ 	public String getQualification() {
+       	return qualification;
+ 	}
+ 	public void setQualification(String qualification) {
+       	this.qualification = qualification;
+ 	}
+ 	public String getSpecialist() {
+       	return specialist;
+ 	}
+ 	public void setSpecialist(String specialist) {
+       	this.specialist = specialist;
+ 	}
+ 	public String getEmail() {
+       	return email;
+ 	}
+ 	public void setEmail(String email) {
+       	this.email = email;
+ 	}
+ 	public String getMobNo() {
+       	return mobNo;
+ 	}
+ 	public void setMobNo(String mobNo) {
+       	this.mobNo = mobNo;
+ 	}
+ 	public String getPassword() {
+       	return password;
+ 	}
+ 	public void setPassword(String password) {
+       	this.password = password;
+ 	}
+ 	 
+}
+
+
+/*1) Designed and developed a comprehensive Hospital Management System to administrative 
+processes and enhance user experience.*/
+
+/*2)Implemented separate user roles and access control, distinguishing between administrators 
+ * and registered users. */
+
+/*3)Admin functionalities include:
+			Adding new doctors to the system, including their profiles and specialties.
+			Removing doctors from the database as needed.
+			Managing doctor and patient records efficiently.
+ * */
+
+
+/*4) User functionalities include:
+		User registration, profile creation, and secure authentication.
+		Booking and managing appointments with doctors of their choice.
+		Streamlined communication with doctors through integrated messaging features. 
+ * */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
